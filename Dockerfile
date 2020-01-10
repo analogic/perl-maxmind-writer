@@ -1,3 +1,3 @@
 FROM perl:slim
 
-RUN cpanm --forceMaxMind::DB::Writer
+RUN cpanm --force MaxMind::DB::Writer
